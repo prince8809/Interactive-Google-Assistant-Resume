@@ -1,0 +1,64 @@
+{
+  "id": "502ffdf5-7762-4da1-a2ed-64e4f8b5dedd",
+  "name": "Prince.qualification",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Trainings: Android Training of 8 weeks at AMS TECHHUB"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "about"
+            },
+            {
+              "title": "contact"
+            },
+            {
+              "title": "skill"
+            },
+            {
+              "title": "project"
+            },
+            {
+              "title": "exit"
+            },
+            {
+              "title": "certifications"
+            },
+            {
+              "title": "hobbies"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Class 10: ICSE Board: 86.5% Class 12:CBSE Board: 85.2% B.E. CSE CGPA:8.76"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537539731,
+  "fallbackIntent": false,
+  "events": []
+}

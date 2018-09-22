@@ -1,0 +1,70 @@
+{
+  "id": "c23f7810-7a31-4c71-8f20-1303321cf028",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "skills"
+            },
+            {
+              "title": "about"
+            },
+            {
+              "title": "contact"
+            },
+            {
+              "title": "project"
+            },
+            {
+              "title": "qualification"
+            },
+            {
+              "title": "exit"
+            },
+            {
+              "title": "certifications"
+            },
+            {
+              "title": "hobbies"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hello! What would you like to know about Prince?",
+            "Good day! What can I tell you about Prince?",
+            "Greetings!  What would you like to know about Prince?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537552689,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "4ffe4a3a-56ac-4c2d-b469-434bdb390299",
+    "data": [
+      {
+        "text": "skill",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537517100
+  },
+  {
+    "id": "c0d166dd-74e0-4fad-b49d-282f0b54b5f6",
+    "data": [
+      {
+        "text": "skills",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537517100
+  },
+  {
+    "id": "b56bd6cb-80b9-4b98-b0d9-d3fdb3a713d8",
+    "data": [
+      {
+        "text": "show skills",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537517100
+  }
+]

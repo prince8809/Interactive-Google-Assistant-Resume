@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1fe7a7be-70e0-4521-b236-cd60f5fcc061",
+    "data": [
+      {
+        "text": "academics",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537522161
+  },
+  {
+    "id": "f36d128b-d2d3-4e21-a9b3-08c6632fda09",
+    "data": [
+      {
+        "text": "scores",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537522161
+  },
+  {
+    "id": "0fabe2f4-af2a-4f6d-99ab-5bf79bbe5c77",
+    "data": [
+      {
+        "text": "qualifications",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537522161
+  }
+]

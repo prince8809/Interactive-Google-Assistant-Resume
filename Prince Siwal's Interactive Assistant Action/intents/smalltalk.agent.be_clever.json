@@ -1,0 +1,32 @@
+{
+  "id": "3e39b2a8-e969-419d-9106-fab1a04f2622",
+  "name": "smalltalk.agent.be_clever",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.be_clever",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I\u0027m certainly trying.",
+            "I\u0027m definitely working on it."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537533160,
+  "fallbackIntent": false,
+  "events": []
+}

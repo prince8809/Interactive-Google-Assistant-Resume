@@ -1,0 +1,50 @@
+[
+  {
+    "id": "efe253c7-ca56-4b66-8081-cc37f09e5bb4",
+    "data": [
+      {
+        "text": "tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "prince",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537518328
+  },
+  {
+    "id": "b4c0cae9-e4d0-4628-93a3-d39dfea644cc",
+    "data": [
+      {
+        "text": "who is ",
+        "userDefined": false
+      },
+      {
+        "text": "prince",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537518328
+  },
+  {
+    "id": "fcb7f91c-fb10-4bb8-906e-cd662151dcba",
+    "data": [
+      {
+        "text": "about",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537517852
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "id": "6bc9a4d3-0e2f-43f8-b75e-c81f8d3d9e5f",
+  "name": "Prince.contact",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Prince Siwal",
+          "subtitle": "",
+          "formattedText": "Contact No:- +917001536390          email:-cu.16bcs1317@gmail.com",
+          "image": {
+            "url": "https://scontent.fluh1-1.fna.fbcdn.net/v/t1.0-9/40643129_1882307521851446_6034031504412114944_n.jpg?_nc_cat\u003d109\u0026oh\u003da4c6e9232aa8ac2536a8217bcdfc42fd\u0026oe\u003d5C2DDAEF",
+            "accessibilityText": "profile picture"
+          },
+          "buttons": [
+            {
+              "title": "link to Linkedin Profile",
+              "openUrlAction": {
+                "url": "https://www.linkedin.com/in/princesiwal/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "about"
+            },
+            {
+              "title": "skills"
+            },
+            {
+              "title": "qulaification"
+            },
+            {
+              "title": "project"
+            },
+            {
+              "title": "exit"
+            },
+            {
+              "title": "certifications"
+            },
+            {
+              "title": "hobbies"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Contact Information:"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537539676,
+  "fallbackIntent": false,
+  "events": []
+}

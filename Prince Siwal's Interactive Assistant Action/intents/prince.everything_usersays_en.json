@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2ddda73d-992f-4282-8232-4db77ace9d55",
+    "data": [
+      {
+        "text": "tell me every thing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537532242
+  },
+  {
+    "id": "23926b82-eca8-4498-bdd8-b8bcec313071",
+    "data": [
+      {
+        "text": "everything about ",
+        "userDefined": false
+      },
+      {
+        "text": "prince",
+        "alias": "music-artist",
+        "meta": "@sys.music-artist",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537532242
+  },
+  {
+    "id": "a483ca66-337b-40ed-93a9-c6b0db5b2499",
+    "data": [
+      {
+        "text": "everything",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537532242
+  }
+]

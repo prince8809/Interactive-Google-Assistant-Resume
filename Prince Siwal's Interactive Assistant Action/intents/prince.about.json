@@ -1,0 +1,126 @@
+{
+  "id": "ccfa3c84-b1c4-4bb6-86fb-f9271959abb5",
+  "name": "prince.about",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e71f4c42-5976-4aae-a84f-c4df4914d4a0",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "My competetive programming profiles:"
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "openUrlAction": {
+                "url": "https://www.hackerrank.com/prince8809",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Hackerrank",
+              "description": "prince8809",
+              "image": {
+                "url": "https://encrypted-tbn0.gstatic.com/images?q\u003dtbn:ANd9GcQXTbMrtadpF-no7YRBVmvD3oE7DUZAyF2wNVhQ_wX9REqahL0g",
+                "accessibilityText": "hckrrank"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://www.hackerearth.com/@prince8809",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "HackerEarth",
+              "description": "prince8809",
+              "image": {
+                "url": "https://static-fastly.hackerearth.com/static/hackerearth/images/logo/HE_identity.png",
+                "accessibilityText": "hckrearth"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://www.codechef.com/users/hail_prince",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "CodeChef",
+              "description": "hail_prince",
+              "image": {
+                "url": "https://pbs.twimg.com/profile_images/1037943339872608256/soI4CqAW_400x400.jpg",
+                "accessibilityText": "cchef"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "skills"
+            },
+            {
+              "title": "contact"
+            },
+            {
+              "title": "project"
+            },
+            {
+              "title": "qualification"
+            },
+            {
+              "title": "exit"
+            },
+            {
+              "title": "certifications"
+            },
+            {
+              "title": "hobbies"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I am a Computer Science student at Chandigarh University, I am passionate about Entrepreneurship and interested in developing mobile applications and working on new technologies.I am also enthusiastic about competitive coding and preparing for ACM ICPC."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537638053,
+  "fallbackIntent": false,
+  "events": []
+}

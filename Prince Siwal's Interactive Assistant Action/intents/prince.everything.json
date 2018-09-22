@@ -1,0 +1,45 @@
+{
+  "id": "37a1ed08-89c1-44e6-a0b2-9aa622b3ce5e",
+  "name": "prince.everything",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "princeeverything-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "471fe0a4-c461-4987-955a-3cbe44840369",
+          "required": false,
+          "dataType": "@sys.music-artist",
+          "name": "music-artist",
+          "value": "$music-artist",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Its nearly Impossible to know everything about him,just know that he is Awesome."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537630544,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,96 @@
+{
+  "id": "25532b44-16cb-4a84-96a6-df64a0f1e404",
+  "name": "prince.hobby",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "prince.hobby",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Check my journey at:"
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "openUrlAction": {
+                "url": "https://www.instagram.com/himalyan_vagabond/",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Instagram Profile",
+              "description": "Prince Siwal",
+              "image": {
+                "url": "https://scontent.fluh2-1.fna.fbcdn.net/v/t1.0-9/40855271_1884489624966569_2542296596834418688_o.jpg?_nc_cat\u003d104\u0026oh\u003d6cd3454964bcc12dc0961e3e71cdbbfe\u0026oe\u003d5C2E2328",
+                "accessibilityText": "ig"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://www.tripoto.com/profile/princesiwal",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Tripoto Profile",
+              "description": "Prince Siwal",
+              "image": {
+                "url": "https://scontent.fluh2-1.fna.fbcdn.net/v/t31.0-8/23275395_1536404966441705_5059615476643476888_o.jpg?_nc_cat\u003d102\u0026oh\u003d3e989f420406b9cb56fd37c3427b0a65\u0026oe\u003d5C2B58B6",
+                "accessibilityText": "tripoto"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "about"
+            },
+            {
+              "title": "skills"
+            },
+            {
+              "title": "certifications"
+            },
+            {
+              "title": "projects"
+            },
+            {
+              "title": "exit"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I love travelling,trekking."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537638301,
+  "fallbackIntent": false,
+  "events": []
+}

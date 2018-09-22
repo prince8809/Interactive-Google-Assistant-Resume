@@ -1,0 +1,111 @@
+{
+  "id": "c3896dd1-a7f7-4998-b3bf-5431f5b42de6",
+  "name": "prince.certification",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Here are the certifications taken by Prince  :"
+        },
+        {
+          "type": "browse_carousel_card",
+          "platform": "google",
+          "lang": "en",
+          "items": [
+            {
+              "openUrlAction": {
+                "url": "https://nptel.ac.in/noc/E_Certificate/linkedin/noc17-cs01/NPTEL17CS01S1250032.jpg",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "C++ Certification",
+              "description": "NPTEL",
+              "image": {
+                "url": "https://yt3.ggpht.com/a-/AN66SAygBO5541gRK821yxInpfQcKk9TmY81978CBA\u003ds900-mo-c-c0xffffffff-rj-k-no",
+                "accessibilityText": "nptel"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://courses.edx.org/certificates/69f5b9f4a70a4524a072b3fb83acced8",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Java Certification",
+              "description": "Java by HKUST on edX",
+              "image": {
+                "url": "http://s3-us-west-1.amazonaws.com/www-prod-storage.cloud.caltech.edu/styles/article_photo/s3/edx_logo_square.jpg?itok\u003dfsvF3McJ",
+                "accessibilityText": "edX"
+              }
+            },
+            {
+              "openUrlAction": {
+                "url": "https://nptel.ac.in/noc/social_cert/noc18-cs21/NPTEL18CS21S46201041810084933.jpg",
+                "urlTypeHint": "AMP_CONTENT"
+              },
+              "optionInfo": {
+                "synonyms": []
+              },
+              "title": "Python Certification",
+              "description": "NPTEL",
+              "image": {
+                "url": "https://yt3.ggpht.com/a-/AN66SAygBO5541gRK821yxInpfQcKk9TmY81978CBA\u003ds900-mo-c-c0xffffffff-rj-k-no",
+                "accessibilityText": "nptel"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "skills"
+            },
+            {
+              "title": "about"
+            },
+            {
+              "title": "exit"
+            },
+            {
+              "title": "project"
+            },
+            {
+              "title": "qualification"
+            },
+            {
+              "title": "contact"
+            },
+            {
+              "title": "hobbies"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537638067,
+  "fallbackIntent": false,
+  "events": []
+}

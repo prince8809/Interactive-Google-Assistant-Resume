@@ -1,0 +1,38 @@
+[
+  {
+    "id": "c21f9a40-08da-4a2e-a7d9-d82ad26d7f14",
+    "data": [
+      {
+        "text": "certifications",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537524411
+  },
+  {
+    "id": "cad40f04-2886-45cb-bf7d-09aa1d5ca84d",
+    "data": [
+      {
+        "text": "certificate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537524411
+  },
+  {
+    "id": "e14205af-c745-4cde-afb1-7543462d35a3",
+    "data": [
+      {
+        "text": "certification",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537524411
+  }
+]

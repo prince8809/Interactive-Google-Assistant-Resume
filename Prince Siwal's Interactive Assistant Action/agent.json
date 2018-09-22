@@ -1,0 +1,91 @@
+{
+  "description": "Resume",
+  "language": "en",
+  "activeAssistantAgents": [],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "prince-resume-af4a2",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "c2898ea9-0ac1-4d06-8821-d30dc32970f2",
+        "signInRequired": false
+      },
+      {
+        "intentId": "6bc9a4d3-0e2f-43f8-b75e-c81f8d3d9e5f",
+        "signInRequired": false
+      },
+      {
+        "intentId": "ccfa3c84-b1c4-4bb6-86fb-f9271959abb5",
+        "signInRequired": false
+      },
+      {
+        "intentId": "ca8209f8-37f8-474e-88bf-b87dd3041d03",
+        "signInRequired": false
+      },
+      {
+        "intentId": "502ffdf5-7762-4da1-a2ed-64e4f8b5dedd",
+        "signInRequired": false
+      },
+      {
+        "intentId": "f15b59bf-dcba-4fed-a8b4-3bee3e24661b",
+        "signInRequired": false
+      },
+      {
+        "intentId": "c3896dd1-a7f7-4998-b3bf-5431f5b42de6",
+        "signInRequired": false
+      },
+      {
+        "intentId": "902b4752-f42f-424a-909d-dbb54f5423dd",
+        "signInRequired": false
+      },
+      {
+        "intentId": "37a1ed08-89c1-44e6-a0b2-9aa622b3ce5e",
+        "signInRequired": false
+      },
+      {
+        "intentId": "25532b44-16cb-4a84-96a6-df64a0f1e404",
+        "signInRequired": false
+      },
+      {
+        "intentId": "3e39b2a8-e969-419d-9106-fab1a04f2622",
+        "signInRequired": false
+      },
+      {
+        "intentId": "ae5c7208-5ff9-4e9f-8577-e0cae822fe2b",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [
+      "ca8209f8-37f8-474e-88bf-b87dd3041d03"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Asia/Almaty",
+  "webhook": {
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}

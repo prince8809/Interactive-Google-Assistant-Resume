@@ -1,0 +1,84 @@
+{
+  "id": "f15b59bf-dcba-4fed-a8b4-3bee3e24661b",
+  "name": "prince.project",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Check out my repositries at:"
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "title": "Projects",
+          "formattedText": "Check out my repositries at:",
+          "image": {
+            "url": "https://pbs.twimg.com/profile_images/1017516299143041024/fLFdcGsl_400x400.jpg",
+            "accessibilityText": "GIT"
+          },
+          "buttons": [
+            {
+              "title": "link to GitHub profile",
+              "openUrlAction": {
+                "url": "https://github.com/prince8809",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "contact"
+            },
+            {
+              "title": "skills"
+            },
+            {
+              "title": "qualifications"
+            },
+            {
+              "title": "exit"
+            },
+            {
+              "title": "about"
+            },
+            {
+              "title": "certifications"
+            },
+            {
+              "title": "hobbies"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "CryptoCurrency Based Advertisements Limiter Chrome Extension,Image Compression System,Android Tic TAc Toe Game."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537539701,
+  "fallbackIntent": false,
+  "events": []
+}

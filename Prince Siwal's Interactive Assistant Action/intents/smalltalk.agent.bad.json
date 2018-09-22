@@ -1,0 +1,33 @@
+{
+  "id": "ae5c7208-5ff9-4e9f-8577-e0cae822fe2b",
+  "name": "smalltalk.agent.bad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.bad",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I can be trained to be more useful. My developer will keep training me.",
+            "I must be missing some knowledge. I\u0027ll have my developer look into this.",
+            "I can improve with continuous feedback. My training is ongoing."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537533239,
+  "fallbackIntent": false,
+  "events": []
+}

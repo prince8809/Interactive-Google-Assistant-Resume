@@ -1,0 +1,64 @@
+{
+  "id": "c2898ea9-0ac1-4d06-8821-d30dc32970f2",
+  "name": "prince.skill",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Android Development,Web Development,Machine Learning,Chrome Extension Development,Java Fx."
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "about"
+            },
+            {
+              "title": "contact"
+            },
+            {
+              "title": "project"
+            },
+            {
+              "title": "qualification"
+            },
+            {
+              "title": "exit"
+            },
+            {
+              "title": "certifications"
+            },
+            {
+              "title": "hobbies"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Languages:C++,JAVA,Python,HTML,JavaScript,CSS,XML."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537539755,
+  "fallbackIntent": false,
+  "events": []
+}
