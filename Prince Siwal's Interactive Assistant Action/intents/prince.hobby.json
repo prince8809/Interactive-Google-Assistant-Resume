@@ -14,7 +14,7 @@
           "type": "simple_response",
           "platform": "google",
           "lang": "en",
-          "textToSpeech": "Check my journey at:"
+          "textToSpeech": "What else would you like to know?"
         },
         {
           "type": "browse_carousel_card",
@@ -78,7 +78,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "I love travelling,trekking."
+          "speech": "I love travelling,trekking.Check my journey at:"
         }
       ],
       "defaultResponsePlatforms": {
@@ -90,7 +90,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537638301,
+  "lastUpdate": 1537849963,
   "fallbackIntent": false,
   "events": []
 }

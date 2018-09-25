@@ -13,7 +13,7 @@
           "type": "simple_response",
           "platform": "google",
           "lang": "en",
-          "textToSpeech": "Trainings: Android Training of 8 weeks at AMS TECHHUB"
+          "textToSpeech": "What else would you like to know?"
         },
         {
           "type": "suggestion_chips",
@@ -46,7 +46,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Class 10: ICSE Board: 86.5% Class 12:CBSE Board: 85.2% B.E. CSE CGPA:8.76"
+          "speech": "Class 10: ICSE Board: 86.5% Class 12:CBSE Board: 85.2% B.E. CSE CGPA:8.76 ,Trainings: Android Training of 8 weeks at AMS TECHHUB"
         }
       ],
       "defaultResponsePlatforms": {
@@ -58,7 +58,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537539731,
+  "lastUpdate": 1537850050,
   "fallbackIntent": false,
   "events": []
 }

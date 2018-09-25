@@ -23,7 +23,7 @@
           "type": "simple_response",
           "platform": "google",
           "lang": "en",
-          "textToSpeech": "My competetive programming profiles:"
+          "textToSpeech": "What else would you like to know?"
         },
         {
           "type": "browse_carousel_card",
@@ -108,7 +108,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "I am a Computer Science student at Chandigarh University, I am passionate about Entrepreneurship and interested in developing mobile applications and working on new technologies.I am also enthusiastic about competitive coding and preparing for ACM ICPC."
+          "speech": "I am a Computer Science student at Chandigarh University, I am passionate about Entrepreneurship and interested in developing mobile applications and working on new technologies.I am also enthusiastic about competitive coding and preparing for ACM ICPC.My competetive programming profiles:"
         }
       ],
       "defaultResponsePlatforms": {
@@ -120,7 +120,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537638053,
+  "lastUpdate": 1537849776,
   "fallbackIntent": false,
   "events": []
 }

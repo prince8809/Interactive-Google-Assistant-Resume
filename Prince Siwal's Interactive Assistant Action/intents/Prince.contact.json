@@ -10,6 +10,12 @@
       "parameters": [],
       "messages": [
         {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "What else would you like to know?"
+        },
+        {
           "type": "basic_card",
           "platform": "google",
           "lang": "en",
@@ -73,7 +79,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537539676,
+  "lastUpdate": 1537849851,
   "fallbackIntent": false,
   "events": []
 }

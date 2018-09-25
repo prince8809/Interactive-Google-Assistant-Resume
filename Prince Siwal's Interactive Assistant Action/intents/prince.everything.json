@@ -25,6 +25,34 @@
       ],
       "messages": [
         {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "What else would you like to know?"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "skills"
+            },
+            {
+              "title": "contact"
+            },
+            {
+              "title": "about"
+            },
+            {
+              "title": "qualifications"
+            },
+            {
+              "title": "project"
+            }
+          ]
+        },
+        {
           "type": 0,
           "lang": "en",
           "speech": "Its nearly Impossible to know everything about him,just know that he is Awesome."
@@ -39,7 +67,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537630544,
+  "lastUpdate": 1537849930,
   "fallbackIntent": false,
   "events": []
 }

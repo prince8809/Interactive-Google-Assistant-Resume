@@ -10,10 +10,15 @@
       "parameters": [],
       "messages": [
         {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here are the certifications taken by Prince  :"
+        },
+        {
           "type": "simple_response",
           "platform": "google",
           "lang": "en",
-          "textToSpeech": "Here are the certifications taken by Prince  :"
+          "textToSpeech": "What else would you like to know?"
         },
         {
           "type": "browse_carousel_card",
@@ -105,7 +110,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537638067,
+  "lastUpdate": 1537849819,
   "fallbackIntent": false,
   "events": []
 }

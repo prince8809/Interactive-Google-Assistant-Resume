@@ -11,6 +11,31 @@
       "parameters": [],
       "messages": [
         {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "What else would you like to know?"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "about"
+            },
+            {
+              "title": "skill"
+            },
+            {
+              "title": "contact"
+            },
+            {
+              "title": "certification"
+            }
+          ]
+        },
+        {
           "type": 0,
           "lang": "en",
           "speech": [
@@ -20,14 +45,16 @@
           ]
         }
       ],
-      "defaultResponsePlatforms": {},
+      "defaultResponsePlatforms": {
+        "google": true
+      },
       "speech": []
     }
   ],
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537533239,
+  "lastUpdate": 1537850161,
   "fallbackIntent": false,
   "events": []
 }

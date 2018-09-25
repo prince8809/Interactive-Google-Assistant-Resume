@@ -17,6 +17,12 @@
       "parameters": [],
       "messages": [
         {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "What else would you like to know?"
+        },
+        {
           "type": "suggestion_chips",
           "platform": "google",
           "lang": "en",
@@ -66,7 +72,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537532579,
+  "lastUpdate": 1537849515,
   "fallbackIntent": false,
   "events": []
 }

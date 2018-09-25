@@ -13,7 +13,7 @@
           "type": "simple_response",
           "platform": "google",
           "lang": "en",
-          "textToSpeech": "Android Development,Web Development,Machine Learning,Chrome Extension Development,Java Fx."
+          "textToSpeech": "What else would you like to know?"
         },
         {
           "type": "suggestion_chips",
@@ -46,7 +46,7 @@
         {
           "type": 0,
           "lang": "en",
-          "speech": "Languages:C++,JAVA,Python,HTML,JavaScript,CSS,XML."
+          "speech": "Languages:C++,JAVA,Python,HTML,JavaScript,CSS,XML.Android Development,Web Development,Machine Learning,Chrome Extension Development,Java Fx."
         }
       ],
       "defaultResponsePlatforms": {
@@ -58,7 +58,7 @@
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "lastUpdate": 1537539755,
+  "lastUpdate": 1537850100,
   "fallbackIntent": false,
   "events": []
 }
